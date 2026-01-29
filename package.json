@@ -1,0 +1,18 @@
+{
+  "name": "minju-tokens-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network giwaSepolia",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
